@@ -1,0 +1,243 @@
+header{
+    margin: 0;
+    padding: 0;
+}
+
+
+.header{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header > div{
+    min-width: 200px;
+}
+
+.header .menu{
+    background-color: white;
+}
+
+.header .logo{
+    width: 200px;
+}
+
+.header .logo a img{
+    width: 50%;
+}
+
+.header .menu ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+.header .menu ul li{  
+    align-self: center; 
+    padding: 10px;
+    margin: 0;
+}
+
+.header .menu ul li:last-child{
+    margin: 0;
+}
+
+.header .menu ul li:hover{
+    background-color: whitesmoke;
+    border-bottom: 0.5px solid rgb(223, 223, 223);
+}
+
+.header .menu ul li a{
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    color: black;
+}
+
+.m20{
+    margin-right: 20px;
+}   
+
+.p60{
+    padding-right: 20%;;
+}
+
+.banner{
+    background-color: beige;
+    width: 100%;
+}
+
+.banner .minhhoa{
+    background-image: url(/images/logo.png);
+    background-size: cover;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.option{
+    display: flex;
+    font-display: row;
+    justify-content: center;
+}
+
+.option a{
+    min-width: 230px;
+    min-height: 200px;
+}
+
+.option .chon{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    
+}
+
+
+.option .vanphong{
+    background-image: url(/images/van-phong.png);
+    background-size: cover;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+.option .bietthu{
+    background-image: url(/images/biet-thu.png);
+    background-size: cover;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+.option .nhapho{
+    background-image: url(/images/nha-pho.png);
+    background-size: cover;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+.option .canho{
+    background-image: url(/images/can-ho.png);
+    background-size: cover;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+.option .chon:hover{
+    box-shadow: 7px 7px 5px rgba(132, 132, 132, 0.463);
+    transform: scale(1.03, 1.03);
+}
+
+.company{
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.company h1{
+    align-self: flex-start;
+    font-family: Calibri;
+}
+
+.company .select{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.company div a{
+    text-decoration: none;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.company .nhamay{
+    background-image: url(/images/nha-may.jpg);
+    background-size: cover;
+    text-align: center;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.079) inset;
+    min-width: 230px;
+    min-height: 200px;
+}
+
+.company .showroom{
+    background-image: url(/images/showroom.jpg);
+    background-size: cover;
+    text-align: center;
+    min-width: 230px;
+    min-height: 200px
+}
+
+.company .gioithieu{
+    background-image: url(/images/gioi-thieu.jpg);
+    background-size: cover;
+    text-align: center;
+    min-width: 230px;
+    min-height: 200px
+}
+
+.company .select:hover{
+    box-shadow: 0px 0px 20px rgba(132, 132, 132, 0.463);
+    transform: scale(1.03, 1.03);
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+.footer{
+    background-color: yellow;
+    height: 200px;
+    border-bottom: 40px solid rgb(28, 21, 13);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.footer .link{
+    font-family: Calibri;
+    font-weight: 800;
+    
+}
+
+.footer .link ul{
+    list-style: none;
+}
+
+.footer .link ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.footer .info{
+    margin-top: 16px;
+    width: auto;
+}
+
+.footer .info p{
+    margin: 2px;
+    font-family: calibri;
+    font-size: 14px;
+    font-weight: 500;
+}
